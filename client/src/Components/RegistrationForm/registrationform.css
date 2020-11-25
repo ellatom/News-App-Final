@@ -1,0 +1,21 @@
+.loginText {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.successMessage {
+  color: green;
+  font-weight: bold;
+}
+i.regpassword {
+  position: absolute;
+  bottom: 37%;
+  right: 10%;
+}
+.regpassword:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,11 @@
+.ui.card
+{
+    display:block;
+    word-wrap:break-word;
+    padding: 15px;
+    margin:5px;
+}
+.ui.left.attached.button
+{
+    margin:7px;
+}

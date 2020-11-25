@@ -1,0 +1,76 @@
+.gridColumn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.item.listItem{
+    margin-top: 40px;
+}
+.listDescription
+{
+    margin: 20px 0;
+}
+.no{
+    color:red;
+}
+.mayby{
+    color:blue;
+}
+.yes{
+    color:green;
+}
+.no :hover,
+.mayby :hover,
+.yes :hover
+{
+    cursor: pointer;
+}
+
+.fas.fa-times,
+.fas.fa-question,
+.far.fa-heart
+{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(104, 101, 101) ;
+}
+  
+.fas.fa-times .tooltiptext,
+.fas.fa-question .tooltiptext,
+.far.fa-heart .tooltiptext
+{
+visibility: hidden;
+width: 120px;
+background-color: rgb(104, 101, 101) ;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 150%;
+left: 50%;
+margin-left: -60px;
+}
+  
+.fas.fa-times .tooltiptext::after,
+.fas.fa-question .tooltiptext::after,
+.far.fa-heart .tooltiptext::after
+{
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: rgb(104, 101, 101) transparent transparent transparent;
+}
+  
+.fas.fa-times:hover .tooltiptext,
+.fas.fa-question:hover .tooltiptext,
+.far.fa-heart:hover .tooltiptext
+{
+visibility: visible;
+}
